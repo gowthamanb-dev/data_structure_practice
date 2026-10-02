@@ -9,7 +9,7 @@ class Stack{
 	public:
 		Stack(int n){
 			this->n=n;
-			a=new int[5];
+			a=new int[n];
 			top=-1;
 		}
 		bool push(int datain){
